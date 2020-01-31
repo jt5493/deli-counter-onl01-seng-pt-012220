@@ -19,4 +19,3 @@ end
 
 def now_serving()
 end
-The line is currently empty.
