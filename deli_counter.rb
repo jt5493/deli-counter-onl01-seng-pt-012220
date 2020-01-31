@@ -9,7 +9,7 @@ def line(katz_deli)
       currently += "#{counter}. #{p}"
       counter += 1
     end
-    puts current
+    puts currently
   end
 end
 
