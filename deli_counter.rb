@@ -1,9 +1,15 @@
 katz_deli = []
 def line(katz_deli)
-  if katz_deli.length > 0
-    puts "The line is currently: " + (katz_deli.index + 1)
-  else
+  if katz_deli.empty?
     puts "The line is currently empty."
+  else
+    currently = "The line is currently: "
+    counter = 1
+    katz_deli.each do |p|
+      currently += "#{counter}. #{p}"
+      counter += 1      
+    end
+    puts current
   end
 end
 
@@ -13,3 +19,4 @@ end
 
 def now_serving()
 end
+The line is currently empty.
